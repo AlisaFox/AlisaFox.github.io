@@ -1,41 +1,39 @@
 body {
-  font-family: 'Bookman', Roboto, sans-serif;
-  font-weight: 300;
-}
-header .row,
-footer .row {
-  display: flex;
-  align-items: center;
-}
-
-header h1 {
-  font-weight: 700;
-  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 800;   
 }
 
 header nav {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  color:#000;
+}
+a{
+  color: #000;
+}
+a:focus {
+  color: #40a97b;
 }
 
 header p {
   padding: 0 20px;
-  margin: 0;
+  margin: 20;
 }
 
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://lh3.googleusercontent.com/5ADC0OhZ3fyUY7FOzx4_qx1Gxjibx0VMh_IYcWLzfsF3fjjlujrQxyAQu-MaTPSPCYY-JB8-uMYxsj-zLFmdjeE8YHTjJWtV0kNogJHhxrAzANVVxvhO53aQ7MilVUkoguMBg9v8vLOy8cE33j-YOoY5tO3E_JqPX373oGFAKLcMOndmUuE076YFNsv0GhNIPLviJBirBtSN2Puq0QRfjXkjQXEPjQaiojmY6I9u8ezsPT2dSW-s4Q7YeYb1kfDFCsRH-NNnyMSNtlQ1GSGC2djnsXnxh7Gr08vuwfTTbqk8HGz5FfcClY7AKU-maSi1Mi5pdzLeKrMTxLJshKAIPudZCaSj9QJW-LGyicWrVE4jlU-Hu7lWW1lLBSz_yJTJzEG0G5wIlrB4wwJ1fsoDY5J2gAGl7Ix_tCmRtYgC34J0_cfPtTqakwjVmQ_fovaXiQ_5zYbfSBAEPQGtNEwvGtyhDOcXSxUOnBEVbMu-63ptJuKTvQhJq-Hgptt-CCaGc1f5z3ln0y7AtVDSpTDPlAQ7BNnP4cqz-3tOqD_Voffkew3Yv5IrDOI9bXDx2PBpQUZ4uWwCex1rRTWKMQmc7DLZIYYaZ_6ndKiN3oB2CEi4t7Gqk14heXFSewpI9mcCugcVtMtxS_SqVztjRTSSt310=w1124-h843-no');
-  background-size: cover;
-  color: #ffffff;
-  height: 500px;
+  background-image: url(https://lh3.googleusercontent.com/VASq2ID3I8PDM26EKoVluYxsVRCHyn84Y8vTkEs1DxYf-Qacq_L4-oZ2jFVv9LMKAyhmVwqDwuQRKk9xArsaW_PTk2SiTCPv8w8Wvq-uZMCQNBndFdA7UjiD3QWzW6UqZCFsl7twDvk5b0alAxZXuVwRP55m44BTrzP4j1zzmyqdKS9LFnAxlGoQu2djneMpukgYwMiIaeKpIAkO6E2i6PWSKQf25DgdXpEiAAtaCOE8U7xeOvKnhRGDWsZzdAuOCoCkJYuoXIMRKhX707XOdi2cIq1X27uJ3ThlZFfhaEzeRL3aoxekPSYSKb7qXnhQ-XT6AVu_3oQ8yl7WfTkbtZRqKshMI0izLzgu--GjfccgC8kDC0XskgxwPPdEUVLyG1zN0Yl55gxPZosPgwnEZq1Zx0ExoexkCzM7t5N-_2T_DmTmc46gKxFC-ZoZrQciQtNlTXnmZeY-Mvf5Ygl-n2p03IuRbuhJqNVIYyPWKUhMbVw7-qCX0sAggb39DiYfevmTGcQrYP00qTI5QCtUDLYP9uGggfgeOaVVOmpSDtsF0vouIqs1Cqq-5aY-2EgkCepUJuIhYfI2UKlZJMTJDgZYq7FDux3ZJxto4qndz1k8CS9Y6HC9Y442BcJMsqUcKueYXPjS9Y7sAgAol2ZtmAHG=w1343-h720-no);
+  background-size: cover; 
+  color: #030305;
+  height: 760px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
+
 footer {
   font-size: 12px;
-  padding: 20px 0;
+  padding:  0;
 }
 
 footer .col-sm-8 {
