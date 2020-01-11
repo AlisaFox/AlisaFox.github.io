@@ -1,38 +1,47 @@
 body {
   font-family: "Courier New", Courier, monospace;
-  font-weight: 800;   
+  font-weight: 800;
+  color: #ada8b6;
+  background-color: #23022e;
 }
-
+.row {
+  background-color: #0c5659;
+  color: #ada8b6;
+}
 header nav {
   display: flex;
   justify-content: center;
-  color:#000;
+  color: #ada8b6;
 }
-a{
-  color: #000;
-}
-a:focus {
-  color: #40a97b;
+.container {
+  width: 100vw;
 }
 
-.jumbotron{
-  background-color: white;
+a {
+  color: #ada8b6;
+}
+a:hover {
+  text-shadow: 2px 2px 4px #d8f7f7;
+  color: #ada8b6;
+  text-decoration: none;
+}
+
+.jumbotron {
+  background-color: #23022e;
+  font-size: 30px;
+  text-indent: 30px;
+}
+p {
   margin: 0;
-  padding:0px;
-   font-size:30px;
-}
-p { 
-   text-indent: 30px;
- 
 }
 
-me{
+me {
   justify-content: flex-start;
-  margin-right:0px;
+  margin-right: 0px;
 }
 footer {
   font-size: 10px;
-  padding:  0;
+  padding: 0;
   display: flex;
   justify-content: flex-start;
 }
