@@ -1,8 +1,7 @@
 # AlisaFox.github.io
 
 ## What:
-This is my personal website!
-@ AlisaFox.github.io
+This is my [personal website!](AlisaFox.github.io)
 
 ## What's happening right now?
 This website is ever-evolving: there are three pages at the moment (index, about me, projects). 
