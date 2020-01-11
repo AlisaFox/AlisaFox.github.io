@@ -5,7 +5,8 @@ This is my personal website!
 @ AlisaFox.github.io
 
 ## What's happening right now?
-This website is ever-evolving: there are three pages at the moment (index, about me, projects).
+This website is ever-evolving: there are three pages at the moment (index, about me, projects). 
+You should probably see it first to understand what I am talking about from here.
 
 Index is the pretty page: it has my name, and links to this github and my insta (since I don't use FB much)
 
@@ -19,8 +20,8 @@ About me is the obligatory page: It is also the page that inspired my current co
 - I need to impove the js part
   - Improve the stop button: instead of finishing omving to it's current destination, I need to cut the journey of the object short.
   - Make the script shorter: there are some redundant parts, for example when I init.
-- Change the projects page to be less in your face
-  - probably by making a normal version with paragraphs, with a big link saying "here is the fun version of the same page"
+- Change the projects page to be less intrusive and in your face
+  - Probably by making a normal version with paragraphs, with a big link saying "here is the fun version of the same page"
 - About me page
   -I do not like the way the image of me shrinks into the top-right corner when you change the size of the page. 
    - More precisely when your browser screen is approximately square in size.
