@@ -9,8 +9,7 @@ This website is ever-evolving: there are three pages at the moment (index, about
 
 Index is the pretty page: it has my name, and links to this github and my insta (since I don't use FB much)
 
-Projects is the fun page: I have a pretty interesting JavaScript running there. I did get the basics of it from this [thread] 
-(https://stackoverflow.com/questions/10385950/how-to-get-a-div-to-randomly-move-around-a-page-using-jquery-or-css). Not only do
+Projects is the fun page: I have a pretty interesting JavaScript running there. I did get the basics of it from this [thread](https://stackoverflow.com/questions/10385950/how-to-get-a-div-to-randomly-move-around-a-page-using-jquery-or-css). Not only do
 my project topics move around, once you click on them an overlay turns on.
 
 About me is the obligatory page: It is also the page that inspired my current colour scheme (see pic).
