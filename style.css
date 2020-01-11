@@ -1,51 +1,90 @@
 body {
   font-family: "Courier New", Courier, monospace;
-  font-weight: 800;   
+  color: #d8f7f7;
 }
 
-header nav {
-  display: flex;
-  justify-content: center;
-  color:#000;
-}
-a{
-  color: #000;
-}
-a:focus {
-  color: #40a97b;
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
 
-header p {
-  padding: 0 20px;
-  margin: 20;
+.columna {
+  left: 0;
+  background-color: #0c5659;
 }
 
-.jumbotron {
-  display: flex;
-  align-items: center;
-  background-image: url(https://lh3.googleusercontent.com/VASq2ID3I8PDM26EKoVluYxsVRCHyn84Y8vTkEs1DxYf-Qacq_L4-oZ2jFVv9LMKAyhmVwqDwuQRKk9xArsaW_PTk2SiTCPv8w8Wvq-uZMCQNBndFdA7UjiD3QWzW6UqZCFsl7twDvk5b0alAxZXuVwRP55m44BTrzP4j1zzmyqdKS9LFnAxlGoQu2djneMpukgYwMiIaeKpIAkO6E2i6PWSKQf25DgdXpEiAAtaCOE8U7xeOvKnhRGDWsZzdAuOCoCkJYuoXIMRKhX707XOdi2cIq1X27uJ3ThlZFfhaEzeRL3aoxekPSYSKb7qXnhQ-XT6AVu_3oQ8yl7WfTkbtZRqKshMI0izLzgu--GjfccgC8kDC0XskgxwPPdEUVLyG1zN0Yl55gxPZosPgwnEZq1Zx0ExoexkCzM7t5N-_2T_DmTmc46gKxFC-ZoZrQciQtNlTXnmZeY-Mvf5Ygl-n2p03IuRbuhJqNVIYyPWKUhMbVw7-qCX0sAggb39DiYfevmTGcQrYP00qTI5QCtUDLYP9uGggfgeOaVVOmpSDtsF0vouIqs1Cqq-5aY-2EgkCepUJuIhYfI2UKlZJMTJDgZYq7FDux3ZJxto4qndz1k8CS9Y6HC9Y442BcJMsqUcKueYXPjS9Y7sAgAol2ZtmAHG=w1343-h720-no);
-  background-size: cover; 
-  color: #030305;
-  height: 760px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
+.columna::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: url("https://storage.needpix.com/rsynced_images/grey-maze.jpg");
+  opacity: 0.05;
+  content: "";
+  z-index: -1;
 }
 
-
-footer {
-  font-size: 12px;
-  padding:  0;
+.columnb {
+  right: 0;
+  background-color: #23022e;
 }
 
-footer .col-sm-8 {
-  display: flex;
-  justify-content: flex-end;
+.button {
+  font-family: "Courier New", Courier, monospace;
+  color: #ada8b6;
+  text-decoration: none;
+  margin-bottom: 50px;
+  font-size: 200%;
 }
 
-footer ul {
-  list-style: none;
+.button:hover {
+  text-shadow: 2px 2px 4px #d8f7f7;
 }
 
-footer li img {
-  width: 32px;
-  height: 32px;
+.row {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
 }
+.a {
+  top: 20%;
+}
+
+.b {
+  top: 50%;
+}
+
+.c {
+  bottom: 0%;
+}
+
+p {
+  font-size: 80%;
+  color: #ada8b6;
+}
+
+.icon {
+  width: 25%;
+  filter: invert(0.9);
+  opacity: 0.7;
+}
+.icon:hover {
+  opacity: 0.8;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
