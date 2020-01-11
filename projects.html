@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AlisaFox</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:700,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="project.css" />
+  </head>
+
+  <body>
+    <header class="container">
+      <div class="row">
+        <nav class="col-sm-4">
+          <a href="index.html">back</a>
+        </nav>
+        <nav class="col-sm-4">
+          <a href="aboutme.html">About Me</a>
+        </nav>
+        <nav class="col-sm-4">
+          <p><i>Projects</i></p>
+        </nav>
+      </div>
+    </header>
+    <div id="toolbar">
+      <p>
+        &nbsp
+      </p>
+      <button class="btn" id="freeze" onclick="lock()">Ugh stop moving!</button>
+      <p>
+        (might take a few secs)
+      </p>
+    </div>
+
+    <button onclick="on('oa')" class="clickable" id="a">
+      HTML & CSS & JS
+    </button>
+    <button onclick="on('ob')" class="clickable" id="b">
+      C
+    </button>
+    <button onclick="on('oc')" class="clickable" id="c">
+      Java
+    </button>
+    <button onclick="on('od')" class="clickable" id="d">
+      ML
+    </button>
+    <button onclick="on('oe')" class="clickable" id="e">
+      Hobbies & Code Snippets
+    </button>
+
+    <div id="oa" class="overlay" onclick="off('oa')">
+      <div class="text">
+        <p>
+          I have a bit of experience developing websites like this. From finding
+          colour palletes to making fun js scripts like this, every part of it
+          is tons of fun!
+        </p>
+        <p>
+          In fact, javascript was the first language I learned back when I was
+          14. Here is
+          <a href="https://perfect-birth.glitch.me/" target="_blank"
+            >another website</a
+          >
+          that I made and use to this day.
+        </p>
+        <p>
+          You can also check out my to-do list for improving my personal website
+          here!
+        </p>
+      </div>
+    </div>
+    <div id="ob" class="overlay" onclick="off('ob')">
+      <div class="text">
+        <p>
+          A majority of my more complicated projects were built in C. For
+          example, I've made a "<a
+            href="https://github.com/AlisaFox/C-projects/tree/master/TinyShell"
+            target="_blank"
+            >tiny shell</a
+          >" with commands like <i>history</i>, which would show the last 100
+          user prompts; or <i>limit </i>
+          which would limit the amount of memory the pseudo-shell would be
+          allowed to use.
+        </p>
+        <p>
+          Another one of my projects was a
+          <a
+            href="https://github.com/AlisaFox/C-projects/tree/master/SimpleFileSystem"
+            target="_blank"
+          >
+            simple file system</a
+          >. It mostly involved two parts: organizing the simulated disk into
+          components like the superblock and inodes. Then the next part was
+          making functions to make files, write and read from them, and so on.
+          Because this is a simplefied file system, making subdirectories is not
+          yet supported.
+        </p>
+      </div>
+    </div>
+    <div id="oc" class="overlay" onclick="off('oc')">
+      <div class="text">
+        <p>
+          Java is the language I am familiar with the most. I've made a lot of
+          small projects. Some of them are games: like
+          <a
+            href="https://github.com/AlisaFox/Java/tree/master/tictactoe"
+            target="_blank"
+            >tic-tac-toe</a
+          >
+          against a bot with a twist, the board size was specified by the user.
+          So if you ever wanted to know what it is like to play tic-tac-toe on a
+          10 by 10 board, now you can!
+        </p>
+        <p>
+          In this
+          <a
+            href="https://github.com/AlisaFox/Java/tree/master/warehouse"
+            target="_blank"
+            >warehouse representation</a
+          >
+          I delved into the object-oriented aspect of java. There are boxes of
+          different sizes, that have to fit on shelves in a warehouse in an
+          optimal way. I used the merge-sort algorithm, to reorganize the boxes
+          and the shelves according to their heights. I have also played with
+          classes a bit, for example <i> urgent box </i> is a subclass of box,
+          which can be added to a separate shipping list so that it leaves the
+          warehouse faster.
+        </p>
+        <p>
+          <a
+            href="https://github.com/AlisaFox/Java/tree/master/hotel"
+            target="_blank"
+            >Here</a
+          >
+          is another representation, this time of an hotel booking system. You
+          can see how many rooms there are available, book one, get your bill,
+          and so on.
+        </p>
+        <p>
+          Check out the rest of my java code
+          <a href="https://github.com/AlisaFox/Java" target="_blank">here</a>.
+        </p>
+      </div>
+    </div>
+    <div id="od" class="overlay" onclick="off('od')">
+      <div class="text">
+        <p>
+          I have recently started delving into Machine Learning. I am currently
+          learning how to use Tensor Flow, and all the things that need to be
+          considered when you make a database. No examples to show just yet,
+          check back in a month or two!
+        </p>
+      </div>
+    </div>
+    <div id="oe" class="overlay" onclick="off('oe')">
+      <div class="text">
+        <p>
+          I am familiar with a lot of different languages: from the safety-based
+          OCaml, to the assembly MIPS, to the reflective list based LISP.
+        </p>
+        <p>
+          Of course, coding is not the only thing that I am passionate about. I
+          love dancing, my favourite styles being contemporary and jazz. I have
+          also recently started learning how to play the acoustic guitar. Who
+          knows, I might put up a link to my YouTube channel one day :)
+        </p>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
