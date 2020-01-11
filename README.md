@@ -1,10 +1,10 @@
 # AlisaFox.github.io
 
-##What:
+## What:
 This is my personal website!
 @ AlisaFox.github.io
 
-##What's happening right now?
+## What's happening right now?
 This website is ever-evolving: there are three pages at the moment (index, about me, projects).
 
 Index is the pretty page: it has my name, and links to this github and my insta (since I don't use FB much)
@@ -15,7 +15,7 @@ my project topics move around, once you click on them an overlay turns on.
 
 About me is the obligatory page: It is also the page that inspired my current colour scheme (see pic).
 
-##To-do list: 
+## To-do list: 
 
 - I need to impove the js part
   - Improve the stop button: instead of finishing omving to it's current destination, I need to cut the journey of the object short.
