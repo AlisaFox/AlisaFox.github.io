@@ -17,8 +17,12 @@ About me is the obligatory page: It is also the page that inspired my current co
 ## To-do list: 
 
 - I need to impove the js part
-  - Improve the stop button: instead of finishing omving to it's current destination, I need to cut the journey of the object short.
+  - Improve the stop button: instead of finishing moving to it's current destination, I need to cut the journey of the object short.
   - Make the script shorter: there are some redundant parts, for example when I init.
+  - make the starting point random for every object:
+    -they all start at the top right corner
+    -however they also programmed not to go out of bounds by calucalting the bounds from their initial spot (i.e. (0,0))
+    -have a predetermined first location at difs speed for everyobject? so fast that the human eye can't see?
 - Change the projects page to be less intrusive and in your face
   - Probably by making a normal version with paragraphs, with a big link saying "here is the fun version of the same page"
 - About me page
