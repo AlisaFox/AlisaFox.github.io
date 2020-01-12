@@ -22,7 +22,7 @@ About me is the obligatory page: It is also the page that inspired my current co
   - Make the starting point random for every object:
     - They all start at the top right corner
     - However they also programmed not to go out of bounds by calucalting the bounds from their initial spot (i.e. (0,0))
-    - Have a predetermined first location at difs speed for everyobject? so fast that the human eye can't see?
+    - Have a predetermined first location at diferrent speeds for every object? so fast that the human eye can't see?
 - Change the projects page to be less intrusive and in your face
   - Probably by making a normal version with paragraphs, with a big link saying "here is the fun version of the same page"
 - About me page
