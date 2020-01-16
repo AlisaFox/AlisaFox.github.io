@@ -26,7 +26,7 @@ About me is the obligatory page: It is also the page that inspired my current co
 - Change the projects page to be less intrusive and in your face
   - Probably by making a normal version with paragraphs, with a big link saying "here is the fun version of the same page"
 - About me page
-  -I do not like the way the image of me shrinks into the top-right corner when you change the size of the page. 
-   - More precisely when your browser screen is approximately square in size.
-   - Maybe use bootstrap for this part?
-  -Make the words flow better
+  - I do not like the way the image of me shrinks into the top-right corner when you change the size of the page. 
+    - More precisely when your browser screen is approximately square in size.
+    - Maybe use bootstrap for this part?
+  - Make the words flow better
