@@ -29,7 +29,7 @@ About me is the obligatory page: It is also the page that inspired my current co
 
 
 #### Old:
-- ~~ I need to impove the js part  ~~ (ignoring since I won't be using this)
+- ~~I need to impove the js part~~ (ignoring since I won't be using this)
   - Improve the stop button: instead of finishing moving to it's current destination, I need to cut the journey of the object short.
   - Make the script shorter: there are some redundant parts, for example when I init.
   - Make the starting point random for every object:
