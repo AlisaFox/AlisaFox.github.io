@@ -26,6 +26,7 @@ About me is the obligatory page: It is also the page that inspired my current co
 - Make the text flow better
 - Check if widescreen dimensions work well
   - In particular, find a better way to adapt font size to page size.
+- Add icon for browser tab
 
 
 #### Old:
