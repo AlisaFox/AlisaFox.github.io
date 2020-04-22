@@ -1,90 +1,264 @@
-body {
+* {
   font-family: "Courier New", Courier, monospace;
   color: #d8f7f7;
+ font-size:20px;
+   box-sizing: border-box;
 }
 
-.split {
-  height: 100%;
-  width: 50%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
+@media only screen and (orientation: landscape) {
+  .parent {
+    
+    display: flex;
+    flex-wrap: wrap;
+    font-size:100%;
+    background-color: #0c5659;
+  }
+  .parent > div {
+    width: 50%;
+  }
 
-.columna {
-  left: 0;
-  background-color: #0c5659;
-}
-
-.columna::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: url("https://storage.needpix.com/rsynced_images/grey-maze.jpg");
-  opacity: 0.05;
-  content: "";
-  z-index: -1;
-}
-
-.columnb {
-  right: 0;
-  background-color: #23022e;
-}
-
-.button {
-  font-family: "Courier New", Courier, monospace;
-  color: #ada8b6;
-  text-decoration: none;
-  margin-bottom: 50px;
-  font-size: 200%;
-}
-
-.button:hover {
-  text-shadow: 2px 2px 4px #d8f7f7;
-}
-
-.row {
-  position: absolute;
-  text-align: center;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: -1;
-}
-.a {
-  top: 20%;
-}
-
-.b {
-  top: 50%;
-}
-
-.c {
-  bottom: 0%;
-}
-
-p {
-  font-size: 80%;
-  color: #ada8b6;
-}
-
-.icon {
-  width: 25%;
-  filter: invert(0.9);
-  opacity: 0.7;
-}
-.icon:hover {
-  opacity: 0.8;
-}
-
-.centered {
-  position: absolute;
+  .columna {
+    background-color: #0c5659;
+    height:90vh;
+  }
+  .columnb {
+    background-color: #23022e;
+    z-index: 1;
+    height:90vh;
+  }
+  .columnb > a{
+    font-size: 3em;
+  }
+  .columna::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url("https://storage.needpix.com/rsynced_images/grey-maze.jpg");
+    opacity: 0.05;
+    content: "";
+    z-index: 0;
+  }
+  #container {
+    height: 100%;
+    border-collapse: collapse;
+    margin: 5;
+    text-align: center;
+  }
+  
+  #imgme {
+  height:90vh;
+  align: middle;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+
+  }
+  .a {
+    background-color: #23022e;
+    justify-content: center;
+    font-size: 0.8em;
+    z-index:1;
+  }
+  .b {
+    background-color: #0c5659;
+    z-index:1;
+  }
+  .c {
+    background-color: #0c5659;
+    justify-content: center;
+  }
+  .d {
+    background-color: #23022e;
+    justify-content: center;
+  }
+  a {
+    color: #ada8b6;
+    text-decoration: none;
+  }
+  a:hover {
+    text-shadow: 2px 2px 4px #d8f7f7;
+    color: #ada8b6;
+  }
+
+  .button {
+    color: #ada8b6;
+    text-decoration: none;
+    margin-bottom: 50px;
+    padding: 20px;
+  }
+  .button:hover {
+    text-shadow: 2px 2px 4px #d8f7f7;
+  }
+  td {
+    padding: 20px;
+    text-align: center;
+  }
+ h2, h3 {
+    text-align: center;
+   
+  }
+  p {
+    /*font-size: x-large;*/
+    color: #ada8b6;
+    padding: .5em;
+  }
+ 
+
+  .icon {
+    width: 25%;
+    filter: invert(0.9);
+    opacity: 0.7;
+  }
+  .icon:hover {
+    opacity: 0.8;
+  }
+
+  .centered {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 }
 
+
+
+@media only screen and (orientation: portrait) {
+  .parent {
+    
+    display: flex;
+    flex-wrap: wrap;
+    font-size:100%;
+    background-color: #0c5659;
+  }
+  .parent > div {
+    width: 100%;
+  }
+  .columna {
+    background-color: #0c5659;
+    height:90vh;
+  }
+  .columnb {
+    background-color: #23022e;
+    z-index: 1;
+    height:90vh;
+    font-size: 40px;
+  }
+ 
+   #email{
+    font-size: 1.5em;
+    
+  }
+  #email2{
+    font-size: 0.8em;
+  }
+  .columna::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url("https://storage.needpix.com/rsynced_images/grey-maze.jpg");
+    opacity: 0.05;
+    content: "";
+    z-index: 0;
+  }
+  #container {
+    height: 100%;
+    border-collapse: collapse;
+    margin: 5;
+    text-align: center;
+  }
+  
+  #imgme {
+  width: 90%;
+  align: middle;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  overflow:hidden;
+  }
+  .a {
+    background-color:#0c5659 ;
+    justify-content: center;
+    font-size: 0.8em;
+    padding:20px;
+  }
+  .b {
+    background-color: #23022e;
+    z-index:1;
+    font-size:0.4em;
+  }
+  .c {
+    background-color: #0c5659;
+    justify-content: center;
+    padding:20px;
+  }
+  .d {
+    background-color: #23022e;
+    justify-content: center;
+    padding:20px;
+  }
+  a {
+    color: #ada8b6;
+    text-decoration: none;
+  }
+  a:hover {
+    text-shadow: 2px 2px 4px #d8f7f7;
+    color: #ada8b6;
+  }
+
+  .button {
+    color: #ada8b6;
+    text-decoration: none;
+    margin-bottom: 50px;
+    padding: 20px;
+  }
+  .button:hover {
+    text-shadow: 2px 2px 4px #d8f7f7;
+  }
+  td {
+    padding: 0.1em;
+    text-align: center;
+    margin-bottom:2em;
+  }
+ h2 {
+    text-align: center;
+   font-size:2em;
+  }
+  h3{
+    text-align:center;
+  }
+  p {
+    
+    color: #ada8b6;
+    padding: .5em;
+  }
+ 
+
+  .icon {
+    width: 25%;
+    filter: invert(0.9);
+    opacity: 0.7;
+  }
+  .icon:hover {
+    opacity: 0.8;
+  }
+
+  .centered {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
