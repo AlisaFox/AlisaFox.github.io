@@ -1,4 +1,4 @@
-body {
+bbody {
   font-family: "Courier New", Courier, monospace;
   font-weight: 800;
   color: #ada8b6;
@@ -17,16 +17,12 @@ body::before {
   z-index: -1;
 }
 
-header nav {
-  display: flex;
-  justify-content: center;
-  color: #ada8b6;
-  background-color: #0c5659;
-  width: 100vw;
-}
+
 
 .container {
   width: 100vw;
+  text-align:center;
+  background-color:#0c5659;
 }
 
 .btn {
